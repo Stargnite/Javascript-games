@@ -1,0 +1,68 @@
+.dashboard {
+	font-size: larger;
+	text-align: center;
+}
+.dashboard span {
+	font-size: x-large;
+	font-weight: 800;
+	color: rgb(5, 164, 5);
+}
+
+
+.activate {
+  background-image: linear-gradient(yellow, red);
+  border: none;
+  color: rgb(217, 233, 246);
+  font-size: 1.5rem;
+  margin: 4% 2%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.activate:hover {
+  background-image: linear-gradient(to right, yellow, red);
+}
+
+.remove-btn {
+	display: none;
+}
+
+.grid {
+  position: absolute;
+  width: 560px;
+  height: 400px;
+  border: 1px solid black;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.grid-display {
+	display: block;
+}
+
+.block {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: blue;
+}
+
+.user {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: red;
+}
+
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(21, 255, 0);
+  border-radius: 50%;
+}

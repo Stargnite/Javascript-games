@@ -1,0 +1,12 @@
+body {
+	font-weight: 900;
+	font-size: 30px;
+}
+div {
+	margin-bottom: 5%;
+}
+
+#grid {
+	display: flex;
+	flex-wrap: wrap;
+}

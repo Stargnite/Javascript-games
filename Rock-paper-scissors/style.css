@@ -1,0 +1,16 @@
+body {
+	padding: 2rem;
+}
+
+div {
+	margin: 2rem;
+}
+
+span {
+	font-weight: 700;
+}
+
+button {
+	padding: 0.5rem;
+	margin: 1rem;
+}

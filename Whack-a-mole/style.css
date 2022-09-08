@@ -1,0 +1,27 @@
+div {
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.7rem;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: rgb(123, 113, 113);
+}
+
+.grid {
+	width: 606px;
+	height: 606px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.square {
+	border: 1px solid black;
+	width:200px;
+	height: 200px;
+}
+
+.mole {
+	background-image: url(../images/mole.jpg);
+	background-size: cover;
+}
